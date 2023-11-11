@@ -10,12 +10,49 @@
 - **LinkedIn:** [Ekaterina Stanevich](https://www.linkedin.com/in/ekaterina-stanevich)
 
 ---
+## Self-Introduction
+Hello. I recently completed QA automation courses and I'm eager to broaden my expertise into frontend development.
+
+
+---
 
 ## Skills
 - **Technologies:** Git, JavaScript, TypeScript, HTML
 - **Frameworks:** Cypress, WebDriverIO, Cucumber
 - **Testing:** Unit, API, e2e
 - **CI/CD:** GitHub Actions, Cypress Cloud, Jenkins
+
+---
+
+## Code Examples
+
+```js
+const BasePage = require('./basePage')
+
+class NewsPage extends BasePage {
+  reaction(name) {
+    return cy.xpath(`//div[@data-reaction="${name}"]`)
+  }
+
+  reactionsCounter(name) {
+    return this.reaction(name).find('.st-count')
+  }
+
+  leaveReaction(name) {
+    return this.reaction(name).click()
+  }
+}
+
+module.exports = new NewsPage()
+```
+
+---
+
+## Work Experience
+- **September 2023:**  
+  Developed a framework for automated testing of a marketplace and news site.  
+  Technologies used: Cypress, Cypress Cloud, JavaScript, GitHub Actions.  
+  [Project Link](https://github.com/katyastan/FinalWork)
 
 ---
 
@@ -30,15 +67,5 @@
 
 ---
 
-## Projects
-- **September 2023:**  
-  Developed a framework for automated testing of a marketplace and news site.  
-  Technologies used: Cypress, Cypress Cloud, JavaScript, GitHub Actions.  
-  [Project Link](https://github.com/katyastan/FinalWork)
-
----
-
-## Languages
-- **English:** B1
-- **Russian:** Native
-- **Belarusian:** Native
+## English Language
+- B1, Intermediate
