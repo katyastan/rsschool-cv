@@ -69,4 +69,4 @@ module.exports = new NewsPage()
 ---
 
 ## English Language
-- B1, Intermediate
+- B1 - Intermediate
