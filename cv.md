@@ -60,7 +60,8 @@ module.exports = new NewsPage()
 - **May 2023 - September 2023**  
   IT Academy, JavaScript QA Automation Engineer  
   Grade: 9.69  
-  ![IT Academy Certificate](./images/certificate.png)
+  [<img src="./images/certificate.png" alt="IT Academy Certificate" style="max-width:200px;" />](./images/certificate.png)
+
 
 - **September 2013 - July 2018**  
   Belarusian National Technical University, Civil Engineer
